@@ -50,4 +50,10 @@ class OrderController extends Controller
             $order->update(['status' => 'Paid']);
         }
     }
+
+    public function invoice($id)
+    {
+        $order = Order::find($id);
+        return view('invoice', compact('order'));
+    }
 }
