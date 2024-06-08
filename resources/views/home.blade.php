@@ -13,7 +13,7 @@
 
 <body>
     <div class="container">
-        <h1 class="my-3">Kosong (Toko Asong)</h1>
+        <h1 class="my-3">Produk Kosong (Toko Asong)</h1>
         <div class="card" style="width: 18rem;">
             <img src="{{ asset('assets/images/kakasi.jpg') }}" class="card-img-top" alt="...">
             <div class="card-body">
